@@ -18,6 +18,7 @@
 		86930C2628F342B8003816C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86930C2428F342B8003816C1 /* LaunchScreen.storyboard */; };
 		86AEDF3B28F3440400B72180 /* PhoneNumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AEDF3A28F3440400B72180 /* PhoneNumberVC.swift */; };
 		86AEDF3D28F3441500B72180 /* SmsCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AEDF3C28F3441500B72180 /* SmsCodeVC.swift */; };
+		86B3206B28F370CA004391FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86B3206A28F370CA004391FB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		86930C2728F342B8003816C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86AEDF3A28F3440400B72180 /* PhoneNumberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberVC.swift; sourceTree = "<group>"; };
 		86AEDF3C28F3441500B72180 /* SmsCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsCodeVC.swift; sourceTree = "<group>"; };
+		86B3206A28F370CA004391FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				86930C2228F342B8003816C1 /* Assets.xcassets */,
 				86930C2428F342B8003816C1 /* LaunchScreen.storyboard */,
 				86930C2728F342B8003816C1 /* Info.plist */,
+				86B3206A28F370CA004391FB /* GoogleService-Info.plist */,
 			);
 			path = Hotfix;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86930C2628F342B8003816C1 /* LaunchScreen.storyboard in Resources */,
+				86B3206B28F370CA004391FB /* GoogleService-Info.plist in Resources */,
 				86930C2328F342B8003816C1 /* Assets.xcassets in Resources */,
 				86930C2128F342B8003816C1 /* SignUp.storyboard in Resources */,
 			);
