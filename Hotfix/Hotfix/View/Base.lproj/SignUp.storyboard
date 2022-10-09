@@ -81,7 +81,7 @@
                     <navigationItem key="navigationItem" id="HaQ-QH-aMe"/>
                     <connections>
                         <outlet property="textLabel" destination="Atp-qH-Qd7" id="yhO-oP-UeF"/>
-                        <segue destination="xFY-bT-6hQ" kind="presentation" id="NMp-Ed-36c"/>
+                        <segue destination="xFY-bT-6hQ" kind="presentation" identifier="goToSmsCode" id="NMp-Ed-36c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
