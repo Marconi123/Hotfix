@@ -8,6 +8,9 @@
 import UIKit
 
 class BasicVC: UIViewController {
+    
+    // MARK: - Functions
+    // Aleft
      func alert(title: String, message: String, style: UIAlertController.Style) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: style)
         let action = UIAlertAction(title: "Ok", style: .default) { _ in

@@ -15,11 +15,11 @@ final class SmsCodeVC: BasicVC {
 
     // MARK: - IBOutlets
 
-    @IBOutlet var textLabel: UILabel!
-    @IBOutlet var smsCodeTF: UITextField!
-    
+    @IBOutlet private var textLabel: UILabel!
+    @IBOutlet private var smsCodeTF: UITextField!
+
     // MARK: - Life cycle
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
@@ -41,6 +41,8 @@ final class SmsCodeVC: BasicVC {
             }
         }
     }
+
+    // MARK: - Private functions
     
     private func setupUI() {
         textLabel.text = "Verification code is sent within 1 minute. Please, input it and verify."

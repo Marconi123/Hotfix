@@ -11,14 +11,14 @@ import UIKit
 final class PhoneNumberVC: BasicVC {
     // MARK: - Properties
     
-    var phoneNumber: String?
-    var currentVerificationId: String?
-    var ref: DatabaseReference!
+    private var phoneNumber: String?
+    private var currentVerificationId: String?
+    private var ref: DatabaseReference!
     
     // MARK: - IBOutlets
     
-    @IBOutlet var textLabel: UILabel!
-    @IBOutlet var phoneTF: UITextField!
+    @IBOutlet private var textLabel: UILabel!
+    @IBOutlet private var phoneTF: UITextField!
     
     // MARK: - Life cycle
     

@@ -12,15 +12,15 @@ final class PersonnelInfo: UIViewController {
     
     // MARK: - IBOutlets
     
-    @IBOutlet weak var fullNameLabel: UILabel!
-    @IBOutlet weak var fullNameTF: UITextField!
-    @IBOutlet weak var phoneNumberLabel: UILabel!
-    @IBOutlet weak var dateOfBirthLabel: UILabel!
-    @IBOutlet weak var datePicker: UIDatePicker!
+    @IBOutlet private weak var fullNameLabel: UILabel!
+    @IBOutlet private weak var fullNameTF: UITextField!
+    @IBOutlet private weak var phoneNumberLabel: UILabel!
+    @IBOutlet private weak var dateOfBirthLabel: UILabel!
+    @IBOutlet private weak var datePicker: UIDatePicker!
     
     // MARK: - Properties
     
-    let ref = Database.database().reference()
+    private let ref = Database.database().reference()
 
     
     // MARK: - Life Cycle
